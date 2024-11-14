@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Mal nettside</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: rgb(7, 135, 158);
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 15%;
+  height: 600px; /* only for demonstration, should be removed */
+  background: #5a80d7;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 85%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #ebf0f4;
+  padding: 10px;
+  text-align: center;
+  color: rgb(3, 0, 0);
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Kapittel 4: Kropp og helse</h2>
+<header>
+  <h1>UNGDOM OG RUS</h1>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li>KILDER:</li>  
+      <li><a href="https://www.fhi.no/le/rusmidler-og-avhengighet/narkotikainorge/bruk-av-narkotika/narkotikabruk-blant-ungdom/?term=">fhi.no</a></li> 
+      <li><a href="https://www.blakors.no/fagside/ungdom-og-rus/">blakors.no</a></li>
+      <li><a href="https://www.ung.no/rusmidler">ung.no</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h2>Rusmidler</h2>
+    <img src="rus.jpeg" alt="rusmidler">
+    <p></p>
+    <p>Rusmidler er ulike substanser som kan påvirke sanseopplevelsene, stemningsleiet og utløse følelse av rus. Rus kan beskrives som en tilstand av eufori og velvære. De kjemiske stoffene vi kaller rusmidler har til felles at de påvirker hjernens belønningssystem, noe som gjør bruken tiltrekkende og utvikler et ønske om å gjenta inntak av rusmidlet. Det er også typisk for rusen at den utløser atferd preget av impulsivitet, kortsiktig tenkning og redusert evne til å legge vekt på negative konsekvenser i beslutningsprosesser. I tillegg til disse sentrale trekkene kan rusen ha dempende eller stimulerende eller hallusinogene effekter. Hallusinogene effekter vil si at sanseopplevelsene blir endret.
+
+        Det finnes flere tusen forskjellige rusmidler. Særlig siden 2010 har det kommet til svært mange «nye psykoaktive stoffer». Det europeiske overvåkningsorganet for narkotika (EMCDDA) følger med på mer enn 800 ulike rusmidler. Rusmidlene kan ha svært ulik kjemisk struktur, virkning og inntaksmåte</p>
+    <p> </p>
+    <h1>Lytt til vår podcast om Ungdom og rus:</h1>
+    <audio controls>
+        <source src="Rick.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>  
+    </article>
+ 
+</section>
+
+<footer>
+<p>Gruppe1: Helene Silden, Jule Nissen og Rudolf Rødnese</p>
+</footer>
+
+</body>
+</html>
+
